@@ -19,5 +19,5 @@ Output: Hello, Earth!
 Input: Hello, ^%Earth!^!%
 Output: Hello, <strong>Earth!</strong>
 
-Input: ^~Hello, ^%Earth!^!~ You are ^~welcome^!% here.^!~
-Output: <em>Hello, <strong>Earth!</strong></em><strong> You are <em>welcome</em></strong><em> here.</em>
+Input: Hello^~Hello, ^%Earth!^!~ You are ^~welcome^!% here.^!~
+Output: Hello<em>Hello, <strong>Earth!</strong></em><strong> You are <em>welcome</em></strong><em> here.</em>
