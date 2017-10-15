@@ -9,15 +9,16 @@ OpeningTag:^%
 ClosingTag:^!%
 
 TextEffect:Emphasis  
-OpeningTag:^~ 
-ClosingTag:^~%
+OpeningTag:^&#126; 
+ClosingTag:^&#126;%
 
 Example:
+
 Input: Hello, Earth!
 Output: Hello, Earth!
 
 Input: Hello, ^%Earth!^!%
 Output: Hello, <strong>Earth!</strong>
 
-Input: Hello, ^~Hello, ^%Earth!^!~ You are ^~welcome^!% here.^!~
+Input: Hello, ^&#126;Hello, ^%Earth!^!&#126; You are ^&#126;welcome^!% here.^!&#126;
 Output: Hello, <em>Hello, <strong>Earth!</strong></em><strong> You are <em>welcome</em></strong><em> here.</em>
